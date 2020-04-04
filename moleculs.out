@@ -1,0 +1,47 @@
+Input SMILES: Cc1ccc(S2(=O)=NC(=O)Nc3ccccc32)cc1
+Encoded representation: shape = (1, 196) , norm = 10.293930430037292
+Properties (qed, SAS, logP): [[0.72313255 2.4103725  3.1467233 ]]
+Searching molecules randomly sampled from 5.0 std (z-distance) from the point
+Found 8 unique mols, out of 15
+Output SMILES:
+ 0    Cc1ccc(S[N+]2=NC(=O)Nc3ccccc32)cc1
+1    Cc1ccc(C[N+]2=NC(=O)Nc3ccccc32)cc1
+2    Cc1ccc(C[n+]2=NC(=O)Nc3ccccc32)cc1
+3    Cc1ccc(-[n+]2=NC(=O)Nc3ccccc32)cc1
+4    Fc1ccc(/[N+]2=NC(=O)Nc3ccccc32)cc1
+5    Fc1ccc(C[n+]2=NC(=O)Nc3ccccc32)cc1
+6    C1cccc(C[n+]2=NC(=O)Nc3ccccc32)cc1
+7    C1cccc(C[N+]2=NC(=O)Nc3ccccc32)cc1
+Name: smiles, dtype: object
+
+==================================================
+
+Input SMILES: CN(Cc1ccc2c(c1)C(=O)CC2)C(=O)OC(C)(C)C
+Encoded representation: shape = (1, 196) , norm = 13.448340967487066
+Properties (qed, SAS, logP): [[0.81158835 2.2198553  2.4382763 ]]
+Searching molecules randomly sampled from 5.0 std (z-distance) from the point
+Found 2 unique mols, out of 2
+Output SMILES:
+ 0    CN(C1cccc2c(c1)C(=O)CC2)C(=O)OC(C)(C)C
+1    CN(C1cccc2c(c1)C(=O)CS2)C(=O)OC(C)(C)C
+Name: smiles, dtype: object
+
+==================================================
+
+Input SMILES: COC(=O)C1CCC(Oc2ccc(NC(=O)C(=O)NN)cn2)CC1
+Encoded representation: shape = (1, 196) , norm = 13.12629220592118
+Properties (qed, SAS, logP): [[0.7531525  2.4784982  0.05034626]]
+Searching molecules randomly sampled from 5.0 std (z-distance) from the point
+Found 7 unique mols, out of 59
+Output SMILES:
+ 0    COC(=O)C1CCC(Oc2ccc(NC(=O)C(=O)NN)cn2)CC1
+1    COC(=O)C1CCC(Nc2ccc(NC(=O)C(=O)NN)cn2)CC1
+2     COC(=O)C1CCC(Oc2ccc(NC(=O)C(=O)NN)cn2)C1
+3    COC(=O)C1CCC(Oc2ccc(NC(=O)C(=O)NN)nn2)CC1
+4    COC(=O)C1CC(COc2ccc(NC(=O)C(=O)NN)cn2)CC1
+5    COC(=O)C1CCC(Oc2ccc(NC(=O)C(=O)NC)cn2)CC1
+6    COC(=O)C1CC(CNc2ccc(NC(=O)C(=O)NC)cn2)CC1
+Name: smiles, dtype: object
+
+==================================================
+
